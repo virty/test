@@ -27,5 +27,10 @@ namespace NUnit.Tests1
         {
             Assert.AreEqual(6, Class1.Minus(8, 2));
         }
+        [Test]
+        public void TestMultiply()
+        {
+            Assert.AreEqual(8, Class1.Multiply(2, 4));
+        }
     }
 }
